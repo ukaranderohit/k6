@@ -14,11 +14,11 @@ PN: you can download and run the latest official installer. - search this and cl
 
 * How to run k6 scripts into local*
 
- k6 run scriptname.js
+ > k6 run scriptname.js
 
  **How to run scripts on cloud**
 
- k6 cloud login or k6 login cloud --token <<provide token here>>
+ > k6 cloud login or k6 login cloud --token <<provide token here>>
 
  **Running k6 locally and exporting the results to the cloud**
  > k6 run script_name.js -o cloud
