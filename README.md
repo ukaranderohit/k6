@@ -11,3 +11,11 @@ PN: you can download and run the latest official installer. - search this and cl
  Download **Visual studio code.** use below link and download it.
 
  https://code.visualstudio.com/download
+
+** How to run k6 scripts into local**
+
+ k6 run scriptname.js
+
+ **How to run scripts on cloud**
+
+ k6 cloud login or k6 login cloud --token <<provide token here>>
