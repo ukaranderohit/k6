@@ -1,3 +1,7 @@
 With help of command line - we can manage most of the arguments which required to run k6 test
 
 > k6 run first-script.js --vus 6 --duration 10s --iterations 1
+
+instead of using this above command - we can use below one
+
+> k6 run first-script.js --v 6 --d 10s --i 1
